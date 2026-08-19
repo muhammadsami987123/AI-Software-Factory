@@ -1,0 +1,814 @@
+{
+  "projects": {
+    "573fbbd3-ffa4-4b96-95ed-3b94eff77e0e": {
+      "id": "573fbbd3-ffa4-4b96-95ed-3b94eff77e0e",
+      "name": "AI Customer Support Platform",
+      "description": "Build a SaaS customer support platform where businesses can manage customer conversations with AI-generated replies, support tickets, priority routing, and analytics dashboards.",
+      "tech_stack": "[\"Next.js\",\"TypeScript\",\"PostgreSQL\"]",
+      "status": "completed",
+      "created_at": "2026-08-19T11:09:58.862Z",
+      "updated_at": "2026-08-19T11:10:49.784Z"
+    },
+    "7c6704ea-25bc-4dbd-9b27-2842b8a6c38c": {
+      "id": "7c6704ea-25bc-4dbd-9b27-2842b8a6c38c",
+      "name": "Team Collaboration Tool",
+      "description": "A project management and collaboration platform with task boards, real-time chat, file sharing, time tracking, and team performance reporting.",
+      "tech_stack": "[\"Next.js\",\"TypeScript\",\"PostgreSQL\"]",
+      "status": "completed",
+      "created_at": "2026-08-19T11:13:21.511Z",
+      "updated_at": "2026-08-19T11:14:09.990Z"
+    }
+  },
+  "factory_runs": {
+    "0d2b400b-1666-4254-84e4-b2881039335d": {
+      "id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "project_id": "573fbbd3-ffa4-4b96-95ed-3b94eff77e0e",
+      "status": "completed",
+      "mode": "demo",
+      "started_at": "2026-08-19T11:10:06.164Z",
+      "completed_at": "2026-08-19T11:10:49.768Z"
+    },
+    "3a8cc433-765b-4c55-a045-cb826364ec63": {
+      "id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "project_id": "7c6704ea-25bc-4dbd-9b27-2842b8a6c38c",
+      "status": "completed",
+      "mode": "demo",
+      "started_at": "2026-08-19T11:13:26.241Z",
+      "completed_at": "2026-08-19T11:14:09.979Z"
+    }
+  },
+  "agent_tasks": {
+    "37971069-4106-47d1-93cd-1335ef8c03be": {
+      "id": "37971069-4106-47d1-93cd-1335ef8c03be",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "status": "completed",
+      "started_at": "2026-08-19T11:10:06.196Z",
+      "completed_at": "2026-08-19T11:10:13.771Z",
+      "summary": "Requirements analyzed, user stories and feature breakdown generated",
+      "duration_ms": 7521
+    },
+    "2d36a691-700a-4b74-a55a-46a795583362": {
+      "id": "2d36a691-700a-4b74-a55a-46a795583362",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "status": "completed",
+      "started_at": "2026-08-19T11:10:14.588Z",
+      "completed_at": "2026-08-19T11:10:23.663Z",
+      "summary": "System architecture, database schema, and API design completed",
+      "duration_ms": 9018
+    },
+    "12e379dd-e486-4979-be85-7bcad49e61e7": {
+      "id": "12e379dd-e486-4979-be85-7bcad49e61e7",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "status": "completed",
+      "started_at": "2026-08-19T11:10:24.497Z",
+      "completed_at": "2026-08-19T11:10:32.873Z",
+      "summary": "Component plan and implementation strategy generated",
+      "duration_ms": 8270
+    },
+    "fa60cdc9-dca1-4a32-907b-5a6b92bdbadb": {
+      "id": "fa60cdc9-dca1-4a32-907b-5a6b92bdbadb",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "status": "completed",
+      "started_at": "2026-08-19T11:10:33.705Z",
+      "completed_at": "2026-08-19T11:10:41.317Z",
+      "summary": "Test plan and edge case analysis completed",
+      "duration_ms": 7523
+    },
+    "5104d492-f99e-41e9-9ed8-39e5a92e605f": {
+      "id": "5104d492-f99e-41e9-9ed8-39e5a92e605f",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "status": "completed",
+      "started_at": "2026-08-19T11:10:42.142Z",
+      "completed_at": "2026-08-19T11:10:49.735Z",
+      "summary": "Code quality review and recommendations completed",
+      "duration_ms": 7521
+    },
+    "6d56aef6-a352-4162-a007-ebc14f91f66d": {
+      "id": "6d56aef6-a352-4162-a007-ebc14f91f66d",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "status": "completed",
+      "started_at": "2026-08-19T11:13:26.294Z",
+      "completed_at": "2026-08-19T11:13:33.895Z",
+      "summary": "Requirements analyzed, user stories and feature breakdown generated",
+      "duration_ms": 7530
+    },
+    "97c72ae1-a68c-4bfd-99fa-a9193b816471": {
+      "id": "97c72ae1-a68c-4bfd-99fa-a9193b816471",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "status": "completed",
+      "started_at": "2026-08-19T11:13:34.723Z",
+      "completed_at": "2026-08-19T11:13:43.850Z",
+      "summary": "System architecture, database schema, and API design completed",
+      "duration_ms": 9025
+    },
+    "6986de80-3941-45f5-b795-e5835e0fe080": {
+      "id": "6986de80-3941-45f5-b795-e5835e0fe080",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "status": "completed",
+      "started_at": "2026-08-19T11:13:44.683Z",
+      "completed_at": "2026-08-19T11:13:53.048Z",
+      "summary": "Component plan and implementation strategy generated",
+      "duration_ms": 8280
+    },
+    "6649eb5e-90b5-42e3-9a51-89f1552629d6": {
+      "id": "6649eb5e-90b5-42e3-9a51-89f1552629d6",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "status": "completed",
+      "started_at": "2026-08-19T11:13:53.882Z",
+      "completed_at": "2026-08-19T11:14:01.512Z",
+      "summary": "Test plan and edge case analysis completed",
+      "duration_ms": 7526
+    },
+    "8462c1b1-bd4a-4451-95a2-aa277d1b8b95": {
+      "id": "8462c1b1-bd4a-4451-95a2-aa277d1b8b95",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "status": "completed",
+      "started_at": "2026-08-19T11:14:02.343Z",
+      "completed_at": "2026-08-19T11:14:09.954Z",
+      "summary": "Code quality review and recommendations completed",
+      "duration_ms": 7517
+    }
+  },
+  "artifacts": {
+    "9a1289c1-7f1e-4a9a-9f9b-63b350b237f2": {
+      "id": "9a1289c1-7f1e-4a9a-9f9b-63b350b237f2",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "type": "requirements",
+      "title": "Requirements Document",
+      "content": "# Requirements Analysis\n\n## Project: AI Customer Support Platform\n\n### Executive Summary\nBuild a SaaS customer support platform where businesses can manage customer conversations with AI-generated replies, support tickets, priority routing, and analytics dashboards.\n\nThis requirements document captures the functional and non-functional requirements for the AI Customer Support Platform platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:10:13.725Z"
+    },
+    "3d0428a5-c360-4924-84d5-fe686c86e65f": {
+      "id": "3d0428a5-c360-4924-84d5-fe686c86e65f",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "type": "user-stories",
+      "title": "User Stories",
+      "content": "# Requirements Analysis\n\n## Project: AI Customer Support Platform\n\n### Executive Summary\nBuild a SaaS customer support platform where businesses can manage customer conversations with AI-generated replies, support tickets, priority routing, and analytics dashboards.\n\nThis requirements document captures the functional and non-functional requirements for the AI Customer Support Platform platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:10:13.743Z"
+    },
+    "1d33952a-d630-419c-a941-50a2a98ae840": {
+      "id": "1d33952a-d630-419c-a941-50a2a98ae840",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "type": "architecture",
+      "title": "System Architecture",
+      "content": "# Requirements Analysis\n\n## Project: AI Customer Support Platform\n\n### Executive Summary\nBuild a SaaS customer support platform where businesses can manage customer conversations with AI-generated replies, support tickets, priority routing, and analytics dashboards.\n\nThis requirements document captures the functional and non-functional requirements for the AI Customer Support Platform platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:10:23.616Z"
+    },
+    "03dbcbc6-db81-4309-851f-7a28fa501fd9": {
+      "id": "03dbcbc6-db81-4309-851f-7a28fa501fd9",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "type": "api-plan",
+      "title": "API Design",
+      "content": "# System Architecture\n\n## Project: AI Customer Support Platform\n\n### Architecture Overview\n\nThe AI Customer Support Platform platform uses a modern three-tier architecture with a clear separation between presentation, application, and data layers. The system is designed for horizontal scalability and operational simplicity.\n\n---\n\n## High-Level Architecture\n\n```\n                    ┌─────────────────────────────────────┐\n                    │            CDN / Edge               │\n                    │    (Static assets, API caching)     │\n                    └──────────────┬──────────────────────┘\n                                   │\n                    ┌──────────────▼──────────────────────┐\n                    │         Load Balancer               │\n                    │         (Nginx / ALB)               │\n                    └──────────────┬──────────────────────┘\n                                   │\n              ┌────────────────────┼─────────────────────┐\n              │                    │                      │\n   ┌──────────▼─────────┐ ┌───────▼────────┐ ┌─────────▼──────────┐\n   │   Next.js App     │ │   API Server   │ │  Background Jobs   │\n   │   (SSR/SSG/CSR)    │ │  (TypeScript)    │ │  (Queue Workers)   │\n   └────────────────────┘ └───────┬────────┘ └─────────┬──────────┘\n                                   │                    │\n                    ┌──────────────┼────────────────────┘\n                    │              │\n         ┌──────────▼──────┐ ┌────▼─────────┐ ┌──────────────────┐\n         │  PostgreSQL      │ │    Redis     │ │   Object Store   │\n         │  (Primary DB)   │ │   (Cache)    │ │   (Files/Media)  │\n         └─────────────────┘ └──────────────┘ └──────────────────┘\n```\n\n---\n\n## Component Architecture\n\n### Frontend Layer\n- **Framework:** Next.js with App Router\n- **State Management:** React Context + Server State (React Query)\n- **Styling:** Tailwind CSS with design token system\n- **Component Library:** Custom component library with atomic design\n- **API Client:** Type-safe API client generated from OpenAPI spec\n\n### API Layer\n- **Runtime:** TypeScript\n- **API Style:** RESTful with JSON:API conventions\n- **Authentication:** JWT with refresh token rotation\n- **Validation:** Schema validation on all inputs (Zod)\n- **Documentation:** Auto-generated OpenAPI 3.0 docs\n\n### Data Layer\n- **Primary Database:** PostgreSQL\n- **ORM:** Prisma for type-safe database access\n- **Migrations:** Versioned migrations with rollback support\n- **Caching:** Redis for session storage and hot data\n- **Search:** Full-text search via PostgreSQL tsvector\n\n---\n\n## Database Schema\n\n```sql\n-- Users and authentication\nCREATE TABLE users (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  email       VARCHAR(255) UNIQUE NOT NULL,\n  name        VARCHAR(255) NOT NULL,\n  role        VARCHAR(50) NOT NULL DEFAULT 'user',\n  password_hash TEXT NOT NULL,\n  email_verified_at TIMESTAMPTZ,\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),\n  updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- User sessions\nCREATE TABLE sessions (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  user_id     UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,\n  token_hash  VARCHAR(255) NOT NULL,\n  expires_at  TIMESTAMPTZ NOT NULL,\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- Core domain entity\nCREATE TABLE workspace_items (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  workspace_id UUID NOT NULL REFERENCES workspaces(id),\n  user_id     UUID NOT NULL REFERENCES users(id),\n  title       VARCHAR(500) NOT NULL,\n  content     TEXT,\n  status      VARCHAR(50) NOT NULL DEFAULT 'active',\n  metadata    JSONB DEFAULT '{}',\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),\n  updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- Activity audit log\nCREATE TABLE audit_log (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  user_id     UUID REFERENCES users(id),\n  action      VARCHAR(255) NOT NULL,\n  resource    VARCHAR(255) NOT NULL,\n  resource_id UUID,\n  metadata    JSONB DEFAULT '{}',\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- Performance indexes\nCREATE INDEX idx_items_workspace ON workspace_items(workspace_id);\nCREATE INDEX idx_items_user ON workspace_items(user_id);\nCREATE INDEX idx_items_status ON workspace_items(status);\nCREATE INDEX idx_items_created ON workspace_items(created_at DESC);\nCREATE INDEX idx_audit_user ON audit_log(user_id, created_at DESC);\n```\n\n---\n\n## API Structure\n\n### Authentication Endpoints\n```\nPOST   /api/v1/auth/register      Create new account\nPOST   /api/v1/auth/login         Sign in and get tokens\nPOST   /api/v1/auth/refresh       Refresh access token\nPOST   /api/v1/auth/logout        Invalidate session\nPOST   /api/v1/auth/forgot        Request password reset\nPOST   /api/v1/auth/reset         Complete password reset\nGET    /api/v1/auth/me            Get current user\n```\n\n### Core Resource Endpoints\n```\nGET    /api/v1/items              List items (paginated, filterable)\nPOST   /api/v1/items              Create item\nGET    /api/v1/items/:id          Get single item\nPATCH  /api/v1/items/:id          Update item\nDELETE /api/v1/items/:id          Delete item\nPOST   /api/v1/items/bulk         Bulk operations\nGET    /api/v1/items/:id/activity Get item activity log\n```\n\n### Analytics Endpoints\n```\nGET    /api/v1/analytics/summary  Dashboard KPIs\nGET    /api/v1/analytics/trends   Time-series data\nGET    /api/v1/analytics/export   Export data\n```\n\n---\n\n## Security Architecture\n\n- **Transport:** TLS 1.3 enforced, HSTS headers\n- **Authentication:** JWT (15min access) + Refresh tokens (7 days, HttpOnly cookie)\n- **Authorization:** Row-level security in PostgreSQL + application-level checks\n- **Rate Limiting:** 100 req/min per IP, 1000 req/min per authenticated user\n- **CORS:** Strict origin whitelist\n- **Headers:** CSP, X-Frame-Options, X-Content-Type-Options\n\n---\n\n## Deployment Architecture\n\n```\nProduction Environment:\n  - Frontend: Vercel (edge functions, global CDN)\n  - API: Railway or Render (auto-scaling containers)\n  - Database: Neon (serverless PostgreSQL, branching)\n  - Cache: Upstash Redis (serverless)\n  - Storage: Cloudflare R2 (S3-compatible)\n  - Monitoring: Sentry (errors) + Vercel Analytics\n```",
+      "created_at": "2026-08-19T11:10:23.640Z"
+    },
+    "7c9c4668-40a8-44dd-818f-7b6014f0e159": {
+      "id": "7c9c4668-40a8-44dd-818f-7b6014f0e159",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "type": "component-plan",
+      "title": "Component Architecture",
+      "content": "# Requirements Analysis\n\n## Project: AI Customer Support Platform\n\n### Executive Summary\nBuild a SaaS customer support platform where businesses can manage customer conversations with AI-generated replies, support tickets, priority routing, and analytics dashboards.\n\nThis requirements document captures the functional and non-functional requirements for the AI Customer Support Platform platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:10:32.818Z"
+    },
+    "4a77092c-a5cc-46f6-95a5-660ef8b50a9a": {
+      "id": "4a77092c-a5cc-46f6-95a5-660ef8b50a9a",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "type": "tech-plan",
+      "title": "Implementation Guide",
+      "content": "# Implementation Plan\n\n## Project: AI Customer Support Platform\n\n### Technology Decisions\n\nThe implementation follows a feature-first directory structure with clear separation of concerns. All code uses TypeScript strict mode with comprehensive type coverage.\n\n---\n\n## Component Architecture\n\n### Design System Primitives\n\n```\nsrc/components/ui/\n├── Button.tsx         # Variants: primary, secondary, ghost, destructive\n├── Input.tsx          # With validation states and helper text\n├── Select.tsx         # Single and multi-select with search\n├── Modal.tsx          # Accessible dialog with focus trap\n├── Table.tsx          # Sortable, filterable, paginated\n├── Badge.tsx          # Status indicators\n├── Card.tsx           # Surface container\n├── Skeleton.tsx       # Loading placeholders\n├── Toast.tsx          # Notification system\n└── Tabs.tsx           # Tab navigation\n```\n\n### Feature Components\n\n```\nsrc/components/\n├── auth/\n│   ├── LoginForm.tsx\n│   ├── RegisterForm.tsx\n│   └── PasswordResetForm.tsx\n├── dashboard/\n│   ├── StatsGrid.tsx\n│   ├── ActivityFeed.tsx\n│   └── QuickActions.tsx\n├── items/\n│   ├── ItemCard.tsx\n│   ├── ItemList.tsx\n│   ├── ItemForm.tsx\n│   └── ItemDetail.tsx\n├── analytics/\n│   ├── KPICard.tsx\n│   ├── TrendChart.tsx\n│   └── ExportButton.tsx\n└── layout/\n    ├── AppLayout.tsx\n    ├── Sidebar.tsx\n    ├── Header.tsx\n    └── MobileNav.tsx\n```\n\n---\n\n## Core Implementation Patterns\n\n### API Client Pattern\n```typescript\n// Type-safe API client with automatic error handling\nclass ApiClient {\n  private baseUrl: string;\n  private token: string | null = null;\n\n  async get<T>(path: string): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      headers: this.headers(),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n\n  async post<T, B>(path: string, body: B): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      method: 'POST',\n      headers: { ...this.headers(), 'Content-Type': 'application/json' },\n      body: JSON.stringify(body),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n}\n```\n\n### Server Action Pattern\n```typescript\n// Type-safe server actions with Zod validation\nconst CreateItemSchema = z.object({\n  title: z.string().min(1).max(500),\n  content: z.string().optional(),\n  status: z.enum(['active', 'archived']).default('active'),\n});\n\nexport async function createItem(\n  data: z.infer<typeof CreateItemSchema>\n): Promise<ActionResult<Item>> {\n  const validated = CreateItemSchema.safeParse(data);\n  if (!validated.success) {\n    return { success: false, error: validated.error.message };\n  }\n\n  const item = await db.items.create({ data: validated.data });\n  revalidatePath('/items');\n  return { success: true, data: item };\n}\n```\n\n### Custom Hook Pattern\n```typescript\n// Data fetching hook with optimistic updates\nfunction useItems(filters?: ItemFilters) {\n  const [items, setItems] = useState<Item[]>([]);\n  const [isLoading, setIsLoading] = useState(true);\n  const [error, setError] = useState<Error | null>(null);\n\n  const create = useCallback(async (data: CreateItemInput) => {\n    const optimisticItem = { ...data, id: 'temp-' + Date.now(), createdAt: new Date() };\n    setItems(prev => [optimisticItem, ...prev]);\n    try {\n      const result = await api.items.create(data);\n      setItems(prev => prev.map(i => i.id === optimisticItem.id ? result : i));\n    } catch (err) {\n      setItems(prev => prev.filter(i => i.id !== optimisticItem.id));\n      throw err;\n    }\n  }, []);\n\n  return { items, isLoading, error, create };\n}\n```\n\n---\n\n## Implementation Phases\n\n### Phase 1 — Core Infrastructure (Week 1-2)\n- [ ] Project setup with TypeScript, ESLint, Prettier\n- [ ] Database schema and migrations\n- [ ] Authentication system (register, login, JWT)\n- [ ] Base API structure with error handling middleware\n- [ ] Design system foundation (colors, typography, spacing)\n- [ ] Layout components (sidebar, header, mobile nav)\n\n### Phase 2 — Core Features (Week 3-4)\n- [ ] Dashboard page with stats\n- [ ] CRUD operations for primary entities\n- [ ] Search and filtering UI\n- [ ] Form components with validation\n- [ ] Error and loading states throughout\n\n### Phase 3 — Advanced Features (Week 5-6)\n- [ ] Analytics dashboard with charts\n- [ ] Notification system\n- [ ] Data export functionality\n- [ ] Admin panel\n- [ ] Performance optimization\n\n### Phase 4 — Polish & Launch (Week 7-8)\n- [ ] Comprehensive test suite\n- [ ] Accessibility audit and fixes\n- [ ] Performance profiling\n- [ ] Documentation\n- [ ] Staging environment validation\n- [ ] Production deployment\n\n---\n\n## Tech Stack Details\n\n**Next.js, TypeScript, PostgreSQL**\n\n| Technology | Version | Purpose |\n|------------|---------|---------|\n| TypeScript | 5.x | Type safety throughout |\n| Zod | 3.x | Runtime validation |\n| Prisma | 5.x | Type-safe ORM |\n| React Query | 5.x | Server state management |\n| Tailwind CSS | 4.x | Utility-first styling |\n| Vitest | 1.x | Unit and integration tests |\n| Playwright | 1.x | End-to-end tests |\n\n---\n\n## Performance Strategy\n\n1. **Server Components** — Render data-heavy pages on server, ship minimal JS\n2. **Streaming** — Progressive rendering with Suspense boundaries\n3. **Caching** — Redis for hot data, Next.js cache for static content\n4. **Images** — Next.js Image with lazy loading and WebP conversion\n5. **Code Splitting** — Dynamic imports for heavy components\n6. **Bundle Analysis** — Regular bundle size audits",
+      "created_at": "2026-08-19T11:10:32.847Z"
+    },
+    "2038bfdf-3316-4ef7-9627-18199de12f24": {
+      "id": "2038bfdf-3316-4ef7-9627-18199de12f24",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "type": "test-plan",
+      "title": "Test Plan",
+      "content": "# Requirements Analysis\n\n## Project: AI Customer Support Platform\n\n### Executive Summary\nBuild a SaaS customer support platform where businesses can manage customer conversations with AI-generated replies, support tickets, priority routing, and analytics dashboards.\n\nThis requirements document captures the functional and non-functional requirements for the AI Customer Support Platform platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:10:41.262Z"
+    },
+    "09d3007a-c2b9-4885-b78c-6166b0fa9cc2": {
+      "id": "09d3007a-c2b9-4885-b78c-6166b0fa9cc2",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "type": "edge-cases",
+      "title": "Edge Cases Analysis",
+      "content": "# Test Plan\n\n## Project: AI Customer Support Platform\n\n### Testing Philosophy\n\nWe follow the Testing Trophy pattern — prioritizing integration tests that exercise real user interactions, supported by targeted unit tests for complex business logic, and E2E tests for critical user journeys.\n\n```\n         /\\\n        /E2E\\      ← Critical user flows (10%)\n       /──────\\\n      /Integration\\ ← API and component tests (60%)\n     /────────────\\\n    /  Unit Tests   \\ ← Business logic (30%)\n   /────────────────\\\n```\n\n---\n\n## Test Categories\n\n### Unit Tests\n\n**Authentication Logic**\n```typescript\ndescribe('Auth utilities', () => {\n  test('hashPassword creates bcrypt hash', async () => {\n    const hash = await hashPassword('SecurePass123!');\n    expect(hash).toMatch(/^$2[ab]$/);\n    expect(hash).not.toBe('SecurePass123!');\n  });\n\n  test('verifyPassword validates correct password', async () => {\n    const hash = await hashPassword('test123');\n    expect(await verifyPassword('test123', hash)).toBe(true);\n    expect(await verifyPassword('wrong', hash)).toBe(false);\n  });\n\n  test('generateJWT creates valid token with claims', () => {\n    const token = generateJWT({ userId: 'abc', role: 'admin' });\n    const decoded = verifyJWT(token);\n    expect(decoded.userId).toBe('abc');\n    expect(decoded.role).toBe('admin');\n  });\n});\n```\n\n**Validation Schemas**\n```typescript\ndescribe('Input validation', () => {\n  test('rejects email without @ symbol', () => {\n    const result = UserSchema.safeParse({ email: 'notanemail', password: 'Pass123!' });\n    expect(result.success).toBe(false);\n    expect(result.error?.issues[0].path).toContain('email');\n  });\n\n  test('rejects weak passwords', () => {\n    const result = UserSchema.safeParse({ email: 'a@b.com', password: '123' });\n    expect(result.success).toBe(false);\n  });\n});\n```\n\n**State Transitions**\n```typescript\ndescribe('Item status transitions', () => {\n  test('allows valid transitions', () => {\n    expect(canTransition('draft', 'active')).toBe(true);\n    expect(canTransition('active', 'archived')).toBe(true);\n  });\n\n  test('rejects invalid transitions', () => {\n    expect(canTransition('archived', 'draft')).toBe(false);\n    expect(canTransition('deleted', 'active')).toBe(false);\n  });\n});\n```\n\n---\n\n### Integration Tests\n\n**API Endpoints**\n```typescript\ndescribe('POST /api/v1/items', () => {\n  test('creates item for authenticated user', async () => {\n    const token = await loginAs('user@test.com');\n    const response = await request(app)\n      .post('/api/v1/items')\n      .set('Authorization', `Bearer ${token}`)\n      .send({ title: 'Test Item', content: 'Description' });\n\n    expect(response.status).toBe(201);\n    expect(response.body.data.title).toBe('Test Item');\n    expect(response.body.data.id).toBeDefined();\n  });\n\n  test('returns 401 for unauthenticated requests', async () => {\n    const response = await request(app)\n      .post('/api/v1/items')\n      .send({ title: 'Test' });\n    expect(response.status).toBe(401);\n  });\n\n  test('returns 400 for invalid input', async () => {\n    const token = await loginAs('user@test.com');\n    const response = await request(app)\n      .post('/api/v1/items')\n      .set('Authorization', `Bearer ${token}`)\n      .send({ title: '' }); // empty title\n    expect(response.status).toBe(400);\n    expect(response.body.error).toBeDefined();\n  });\n});\n```\n\n**Database Operations**\n```typescript\ndescribe('Item repository', () => {\n  beforeEach(async () => await seedTestDatabase());\n  afterEach(async () => await cleanTestDatabase());\n\n  test('findById returns correct item', async () => {\n    const item = await db.items.findById('known-id');\n    expect(item?.title).toBe('Expected Title');\n  });\n\n  test('list returns paginated results', async () => {\n    const result = await db.items.list({ page: 1, limit: 10 });\n    expect(result.items).toHaveLength(10);\n    expect(result.total).toBeGreaterThan(10);\n    expect(result.hasMore).toBe(true);\n  });\n});\n```\n\n---\n\n### End-to-End Tests\n\n**Critical User Journey 1: New User Registration**\n```typescript\ntest('complete registration flow', async ({ page }) => {\n  await page.goto('/register');\n  await page.fill('[name=email]', 'newuser@example.com');\n  await page.fill('[name=password]', 'SecurePass123!');\n  await page.fill('[name=confirmPassword]', 'SecurePass123!');\n  await page.click('[type=submit]');\n\n  await expect(page).toHaveURL('/dashboard');\n  await expect(page.locator('h1')).toContainText('Welcome');\n});\n```\n\n**Critical User Journey 2: Core Workflow**\n```typescript\ntest('create, update, and delete an item', async ({ page }) => {\n  await loginUser(page, 'user@test.com');\n\n  // Create\n  await page.click('[data-testid=create-item-btn]');\n  await page.fill('[name=title]', 'My Test Item');\n  await page.click('[type=submit]');\n  await expect(page.locator('[data-testid=item-card]').first()).toContainText('My Test Item');\n\n  // Update\n  await page.click('[data-testid=edit-item]');\n  await page.fill('[name=title]', 'Updated Title');\n  await page.click('[type=submit]');\n  await expect(page.locator('[data-testid=item-card]').first()).toContainText('Updated Title');\n\n  // Delete\n  await page.click('[data-testid=delete-item]');\n  await page.click('[data-testid=confirm-delete]');\n  await expect(page.locator('[data-testid=item-card]')).toHaveCount(0);\n});\n```\n\n---\n\n## Edge Cases\n\n### Authentication Edge Cases\n- Expired JWT token → automatic refresh or redirect to login\n- Concurrent logins from multiple devices → all sessions valid\n- Login with unverified email → clear error message\n- Rate limiting after 5 failed login attempts → 15-minute lockout\n- Password reset link used twice → second use rejected\n\n### Data Edge Cases\n- Empty list states → informative empty state with CTA\n- Single character inputs → accepted if within min length\n- Maximum length inputs → truncation or rejection with message\n- Unicode and emoji in text fields → properly stored and displayed\n- Concurrent updates to same record → last-write-wins with conflict notification\n\n### Network Edge Cases\n- Request timeout (> 30s) → user-friendly timeout message\n- 503 Service Unavailable → retry with exponential backoff\n- Offline mode → cached data shown, write operations queued\n- Large file uploads → chunked upload with progress indicator\n\n### UI Edge Cases\n- Very long text in card titles → CSS truncation with tooltip\n- Tables with 0 rows → styled empty state\n- Rapid button clicks → debounced, loading state prevents duplicates\n- Back navigation during form fill → unsaved changes warning\n\n---\n\n## Test Coverage Targets\n\n| Layer | Target Coverage | Priority |\n|-------|----------------|----------|\n| Business logic (utils) | 95% | Critical |\n| API route handlers | 80% | Critical |\n| React components | 70% | High |\n| Database queries | 85% | High |\n| E2E critical paths | 100% of journeys | Critical |\n\n**Estimated Test Suite Size:** ~150 unit tests, ~60 integration tests, ~20 E2E scenarios",
+      "created_at": "2026-08-19T11:10:41.292Z"
+    },
+    "cd96b4d2-ad8e-4f65-89fd-609ea1b026e3": {
+      "id": "cd96b4d2-ad8e-4f65-89fd-609ea1b026e3",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "type": "review-summary",
+      "title": "Code Review",
+      "content": "# Requirements Analysis\n\n## Project: AI Customer Support Platform\n\n### Executive Summary\nBuild a SaaS customer support platform where businesses can manage customer conversations with AI-generated replies, support tickets, priority routing, and analytics dashboards.\n\nThis requirements document captures the functional and non-functional requirements for the AI Customer Support Platform platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:10:49.682Z"
+    },
+    "04254b9c-e776-41d5-9a02-a6e6c1b1e277": {
+      "id": "04254b9c-e776-41d5-9a02-a6e6c1b1e277",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "type": "recommendations",
+      "title": "Recommendations",
+      "content": "# Implementation Plan\n\n## Project: AI Customer Support Platform\n\n### Technology Decisions\n\nThe implementation follows a feature-first directory structure with clear separation of concerns. All code uses TypeScript strict mode with comprehensive type coverage.\n\n---\n\n## Component Architecture\n\n### Design System Primitives\n\n```\nsrc/components/ui/\n├── Button.tsx         # Variants: primary, secondary, ghost, destructive\n├── Input.tsx          # With validation states and helper text\n├── Select.tsx         # Single and multi-select with search\n├── Modal.tsx          # Accessible dialog with focus trap\n├── Table.tsx          # Sortable, filterable, paginated\n├── Badge.tsx          # Status indicators\n├── Card.tsx           # Surface container\n├── Skeleton.tsx       # Loading placeholders\n├── Toast.tsx          # Notification system\n└── Tabs.tsx           # Tab navigation\n```\n\n### Feature Components\n\n```\nsrc/components/\n├── auth/\n│   ├── LoginForm.tsx\n│   ├── RegisterForm.tsx\n│   └── PasswordResetForm.tsx\n├── dashboard/\n│   ├── StatsGrid.tsx\n│   ├── ActivityFeed.tsx\n│   └── QuickActions.tsx\n├── items/\n│   ├── ItemCard.tsx\n│   ├── ItemList.tsx\n│   ├── ItemForm.tsx\n│   └── ItemDetail.tsx\n├── analytics/\n│   ├── KPICard.tsx\n│   ├── TrendChart.tsx\n│   └── ExportButton.tsx\n└── layout/\n    ├── AppLayout.tsx\n    ├── Sidebar.tsx\n    ├── Header.tsx\n    └── MobileNav.tsx\n```\n\n---\n\n## Core Implementation Patterns\n\n### API Client Pattern\n```typescript\n// Type-safe API client with automatic error handling\nclass ApiClient {\n  private baseUrl: string;\n  private token: string | null = null;\n\n  async get<T>(path: string): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      headers: this.headers(),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n\n  async post<T, B>(path: string, body: B): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      method: 'POST',\n      headers: { ...this.headers(), 'Content-Type': 'application/json' },\n      body: JSON.stringify(body),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n}\n```\n\n### Server Action Pattern\n```typescript\n// Type-safe server actions with Zod validation\nconst CreateItemSchema = z.object({\n  title: z.string().min(1).max(500),\n  content: z.string().optional(),\n  status: z.enum(['active', 'archived']).default('active'),\n});\n\nexport async function createItem(\n  data: z.infer<typeof CreateItemSchema>\n): Promise<ActionResult<Item>> {\n  const validated = CreateItemSchema.safeParse(data);\n  if (!validated.success) {\n    return { success: false, error: validated.error.message };\n  }\n\n  const item = await db.items.create({ data: validated.data });\n  revalidatePath('/items');\n  return { success: true, data: item };\n}\n```\n\n### Custom Hook Pattern\n```typescript\n// Data fetching hook with optimistic updates\nfunction useItems(filters?: ItemFilters) {\n  const [items, setItems] = useState<Item[]>([]);\n  const [isLoading, setIsLoading] = useState(true);\n  const [error, setError] = useState<Error | null>(null);\n\n  const create = useCallback(async (data: CreateItemInput) => {\n    const optimisticItem = { ...data, id: 'temp-' + Date.now(), createdAt: new Date() };\n    setItems(prev => [optimisticItem, ...prev]);\n    try {\n      const result = await api.items.create(data);\n      setItems(prev => prev.map(i => i.id === optimisticItem.id ? result : i));\n    } catch (err) {\n      setItems(prev => prev.filter(i => i.id !== optimisticItem.id));\n      throw err;\n    }\n  }, []);\n\n  return { items, isLoading, error, create };\n}\n```\n\n---\n\n## Implementation Phases\n\n### Phase 1 — Core Infrastructure (Week 1-2)\n- [ ] Project setup with TypeScript, ESLint, Prettier\n- [ ] Database schema and migrations\n- [ ] Authentication system (register, login, JWT)\n- [ ] Base API structure with error handling middleware\n- [ ] Design system foundation (colors, typography, spacing)\n- [ ] Layout components (sidebar, header, mobile nav)\n\n### Phase 2 — Core Features (Week 3-4)\n- [ ] Dashboard page with stats\n- [ ] CRUD operations for primary entities\n- [ ] Search and filtering UI\n- [ ] Form components with validation\n- [ ] Error and loading states throughout\n\n### Phase 3 — Advanced Features (Week 5-6)\n- [ ] Analytics dashboard with charts\n- [ ] Notification system\n- [ ] Data export functionality\n- [ ] Admin panel\n- [ ] Performance optimization\n\n### Phase 4 — Polish & Launch (Week 7-8)\n- [ ] Comprehensive test suite\n- [ ] Accessibility audit and fixes\n- [ ] Performance profiling\n- [ ] Documentation\n- [ ] Staging environment validation\n- [ ] Production deployment\n\n---\n\n## Tech Stack Details\n\n**Next.js, TypeScript, PostgreSQL**\n\n| Technology | Version | Purpose |\n|------------|---------|---------|\n| TypeScript | 5.x | Type safety throughout |\n| Zod | 3.x | Runtime validation |\n| Prisma | 5.x | Type-safe ORM |\n| React Query | 5.x | Server state management |\n| Tailwind CSS | 4.x | Utility-first styling |\n| Vitest | 1.x | Unit and integration tests |\n| Playwright | 1.x | End-to-end tests |\n\n---\n\n## Performance Strategy\n\n1. **Server Components** — Render data-heavy pages on server, ship minimal JS\n2. **Streaming** — Progressive rendering with Suspense boundaries\n3. **Caching** — Redis for hot data, Next.js cache for static content\n4. **Images** — Next.js Image with lazy loading and WebP conversion\n5. **Code Splitting** — Dynamic imports for heavy components\n6. **Bundle Analysis** — Regular bundle size audits",
+      "created_at": "2026-08-19T11:10:49.707Z"
+    },
+    "7a969036-55ed-45a2-95b0-4cad8c2be7b0": {
+      "id": "7a969036-55ed-45a2-95b0-4cad8c2be7b0",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "type": "requirements",
+      "title": "Requirements Document",
+      "content": "# Requirements Analysis\n\n## Project: Team Collaboration Tool\n\n### Executive Summary\nA project management and collaboration platform with task boards, real-time chat, file sharing, time tracking, and team performance reporting.\n\nThis requirements document captures the functional and non-functional requirements for the Team Collaboration Tool platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:13:33.838Z"
+    },
+    "8e15b3b6-cc81-43f1-a3d1-cf38e667217a": {
+      "id": "8e15b3b6-cc81-43f1-a3d1-cf38e667217a",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "type": "user-stories",
+      "title": "User Stories",
+      "content": "# Requirements Analysis\n\n## Project: Team Collaboration Tool\n\n### Executive Summary\nA project management and collaboration platform with task boards, real-time chat, file sharing, time tracking, and team performance reporting.\n\nThis requirements document captures the functional and non-functional requirements for the Team Collaboration Tool platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:13:33.871Z"
+    },
+    "77faf471-1754-4472-9e13-3f1e1d1e58dd": {
+      "id": "77faf471-1754-4472-9e13-3f1e1d1e58dd",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "type": "architecture",
+      "title": "System Architecture",
+      "content": "# Requirements Analysis\n\n## Project: Team Collaboration Tool\n\n### Executive Summary\nA project management and collaboration platform with task boards, real-time chat, file sharing, time tracking, and team performance reporting.\n\nThis requirements document captures the functional and non-functional requirements for the Team Collaboration Tool platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:13:43.781Z"
+    },
+    "794dfba4-f82e-4601-8578-c86906bad280": {
+      "id": "794dfba4-f82e-4601-8578-c86906bad280",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "type": "api-plan",
+      "title": "API Design",
+      "content": "# System Architecture\n\n## Project: Team Collaboration Tool\n\n### Architecture Overview\n\nThe Team Collaboration Tool platform uses a modern three-tier architecture with a clear separation between presentation, application, and data layers. The system is designed for horizontal scalability and operational simplicity.\n\n---\n\n## High-Level Architecture\n\n```\n                    ┌─────────────────────────────────────┐\n                    │            CDN / Edge               │\n                    │    (Static assets, API caching)     │\n                    └──────────────┬──────────────────────┘\n                                   │\n                    ┌──────────────▼──────────────────────┐\n                    │         Load Balancer               │\n                    │         (Nginx / ALB)               │\n                    └──────────────┬──────────────────────┘\n                                   │\n              ┌────────────────────┼─────────────────────┐\n              │                    │                      │\n   ┌──────────▼─────────┐ ┌───────▼────────┐ ┌─────────▼──────────┐\n   │   Next.js App     │ │   API Server   │ │  Background Jobs   │\n   │   (SSR/SSG/CSR)    │ │  (TypeScript)    │ │  (Queue Workers)   │\n   └────────────────────┘ └───────┬────────┘ └─────────┬──────────┘\n                                   │                    │\n                    ┌──────────────┼────────────────────┘\n                    │              │\n         ┌──────────▼──────┐ ┌────▼─────────┐ ┌──────────────────┐\n         │  PostgreSQL      │ │    Redis     │ │   Object Store   │\n         │  (Primary DB)   │ │   (Cache)    │ │   (Files/Media)  │\n         └─────────────────┘ └──────────────┘ └──────────────────┘\n```\n\n---\n\n## Component Architecture\n\n### Frontend Layer\n- **Framework:** Next.js with App Router\n- **State Management:** React Context + Server State (React Query)\n- **Styling:** Tailwind CSS with design token system\n- **Component Library:** Custom component library with atomic design\n- **API Client:** Type-safe API client generated from OpenAPI spec\n\n### API Layer\n- **Runtime:** TypeScript\n- **API Style:** RESTful with JSON:API conventions\n- **Authentication:** JWT with refresh token rotation\n- **Validation:** Schema validation on all inputs (Zod)\n- **Documentation:** Auto-generated OpenAPI 3.0 docs\n\n### Data Layer\n- **Primary Database:** PostgreSQL\n- **ORM:** Prisma for type-safe database access\n- **Migrations:** Versioned migrations with rollback support\n- **Caching:** Redis for session storage and hot data\n- **Search:** Full-text search via PostgreSQL tsvector\n\n---\n\n## Database Schema\n\n```sql\n-- Users and authentication\nCREATE TABLE users (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  email       VARCHAR(255) UNIQUE NOT NULL,\n  name        VARCHAR(255) NOT NULL,\n  role        VARCHAR(50) NOT NULL DEFAULT 'user',\n  password_hash TEXT NOT NULL,\n  email_verified_at TIMESTAMPTZ,\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),\n  updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- User sessions\nCREATE TABLE sessions (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  user_id     UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,\n  token_hash  VARCHAR(255) NOT NULL,\n  expires_at  TIMESTAMPTZ NOT NULL,\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- Core domain entity\nCREATE TABLE workspace_items (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  workspace_id UUID NOT NULL REFERENCES workspaces(id),\n  user_id     UUID NOT NULL REFERENCES users(id),\n  title       VARCHAR(500) NOT NULL,\n  content     TEXT,\n  status      VARCHAR(50) NOT NULL DEFAULT 'active',\n  metadata    JSONB DEFAULT '{}',\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),\n  updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- Activity audit log\nCREATE TABLE audit_log (\n  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  user_id     UUID REFERENCES users(id),\n  action      VARCHAR(255) NOT NULL,\n  resource    VARCHAR(255) NOT NULL,\n  resource_id UUID,\n  metadata    JSONB DEFAULT '{}',\n  created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()\n);\n\n-- Performance indexes\nCREATE INDEX idx_items_workspace ON workspace_items(workspace_id);\nCREATE INDEX idx_items_user ON workspace_items(user_id);\nCREATE INDEX idx_items_status ON workspace_items(status);\nCREATE INDEX idx_items_created ON workspace_items(created_at DESC);\nCREATE INDEX idx_audit_user ON audit_log(user_id, created_at DESC);\n```\n\n---\n\n## API Structure\n\n### Authentication Endpoints\n```\nPOST   /api/v1/auth/register      Create new account\nPOST   /api/v1/auth/login         Sign in and get tokens\nPOST   /api/v1/auth/refresh       Refresh access token\nPOST   /api/v1/auth/logout        Invalidate session\nPOST   /api/v1/auth/forgot        Request password reset\nPOST   /api/v1/auth/reset         Complete password reset\nGET    /api/v1/auth/me            Get current user\n```\n\n### Core Resource Endpoints\n```\nGET    /api/v1/items              List items (paginated, filterable)\nPOST   /api/v1/items              Create item\nGET    /api/v1/items/:id          Get single item\nPATCH  /api/v1/items/:id          Update item\nDELETE /api/v1/items/:id          Delete item\nPOST   /api/v1/items/bulk         Bulk operations\nGET    /api/v1/items/:id/activity Get item activity log\n```\n\n### Analytics Endpoints\n```\nGET    /api/v1/analytics/summary  Dashboard KPIs\nGET    /api/v1/analytics/trends   Time-series data\nGET    /api/v1/analytics/export   Export data\n```\n\n---\n\n## Security Architecture\n\n- **Transport:** TLS 1.3 enforced, HSTS headers\n- **Authentication:** JWT (15min access) + Refresh tokens (7 days, HttpOnly cookie)\n- **Authorization:** Row-level security in PostgreSQL + application-level checks\n- **Rate Limiting:** 100 req/min per IP, 1000 req/min per authenticated user\n- **CORS:** Strict origin whitelist\n- **Headers:** CSP, X-Frame-Options, X-Content-Type-Options\n\n---\n\n## Deployment Architecture\n\n```\nProduction Environment:\n  - Frontend: Vercel (edge functions, global CDN)\n  - API: Railway or Render (auto-scaling containers)\n  - Database: Neon (serverless PostgreSQL, branching)\n  - Cache: Upstash Redis (serverless)\n  - Storage: Cloudflare R2 (S3-compatible)\n  - Monitoring: Sentry (errors) + Vercel Analytics\n```",
+      "created_at": "2026-08-19T11:13:43.815Z"
+    },
+    "b17af77a-b75f-447b-bee0-441ac5b6544c": {
+      "id": "b17af77a-b75f-447b-bee0-441ac5b6544c",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "type": "component-plan",
+      "title": "Component Architecture",
+      "content": "# Requirements Analysis\n\n## Project: Team Collaboration Tool\n\n### Executive Summary\nA project management and collaboration platform with task boards, real-time chat, file sharing, time tracking, and team performance reporting.\n\nThis requirements document captures the functional and non-functional requirements for the Team Collaboration Tool platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:13:52.986Z"
+    },
+    "007c3a10-f6b2-41e2-94fd-a5c68a6058fc": {
+      "id": "007c3a10-f6b2-41e2-94fd-a5c68a6058fc",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "type": "tech-plan",
+      "title": "Implementation Guide",
+      "content": "# Implementation Plan\n\n## Project: Team Collaboration Tool\n\n### Technology Decisions\n\nThe implementation follows a feature-first directory structure with clear separation of concerns. All code uses TypeScript strict mode with comprehensive type coverage.\n\n---\n\n## Component Architecture\n\n### Design System Primitives\n\n```\nsrc/components/ui/\n├── Button.tsx         # Variants: primary, secondary, ghost, destructive\n├── Input.tsx          # With validation states and helper text\n├── Select.tsx         # Single and multi-select with search\n├── Modal.tsx          # Accessible dialog with focus trap\n├── Table.tsx          # Sortable, filterable, paginated\n├── Badge.tsx          # Status indicators\n├── Card.tsx           # Surface container\n├── Skeleton.tsx       # Loading placeholders\n├── Toast.tsx          # Notification system\n└── Tabs.tsx           # Tab navigation\n```\n\n### Feature Components\n\n```\nsrc/components/\n├── auth/\n│   ├── LoginForm.tsx\n│   ├── RegisterForm.tsx\n│   └── PasswordResetForm.tsx\n├── dashboard/\n│   ├── StatsGrid.tsx\n│   ├── ActivityFeed.tsx\n│   └── QuickActions.tsx\n├── items/\n│   ├── ItemCard.tsx\n│   ├── ItemList.tsx\n│   ├── ItemForm.tsx\n│   └── ItemDetail.tsx\n├── analytics/\n│   ├── KPICard.tsx\n│   ├── TrendChart.tsx\n│   └── ExportButton.tsx\n└── layout/\n    ├── AppLayout.tsx\n    ├── Sidebar.tsx\n    ├── Header.tsx\n    └── MobileNav.tsx\n```\n\n---\n\n## Core Implementation Patterns\n\n### API Client Pattern\n```typescript\n// Type-safe API client with automatic error handling\nclass ApiClient {\n  private baseUrl: string;\n  private token: string | null = null;\n\n  async get<T>(path: string): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      headers: this.headers(),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n\n  async post<T, B>(path: string, body: B): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      method: 'POST',\n      headers: { ...this.headers(), 'Content-Type': 'application/json' },\n      body: JSON.stringify(body),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n}\n```\n\n### Server Action Pattern\n```typescript\n// Type-safe server actions with Zod validation\nconst CreateItemSchema = z.object({\n  title: z.string().min(1).max(500),\n  content: z.string().optional(),\n  status: z.enum(['active', 'archived']).default('active'),\n});\n\nexport async function createItem(\n  data: z.infer<typeof CreateItemSchema>\n): Promise<ActionResult<Item>> {\n  const validated = CreateItemSchema.safeParse(data);\n  if (!validated.success) {\n    return { success: false, error: validated.error.message };\n  }\n\n  const item = await db.items.create({ data: validated.data });\n  revalidatePath('/items');\n  return { success: true, data: item };\n}\n```\n\n### Custom Hook Pattern\n```typescript\n// Data fetching hook with optimistic updates\nfunction useItems(filters?: ItemFilters) {\n  const [items, setItems] = useState<Item[]>([]);\n  const [isLoading, setIsLoading] = useState(true);\n  const [error, setError] = useState<Error | null>(null);\n\n  const create = useCallback(async (data: CreateItemInput) => {\n    const optimisticItem = { ...data, id: 'temp-' + Date.now(), createdAt: new Date() };\n    setItems(prev => [optimisticItem, ...prev]);\n    try {\n      const result = await api.items.create(data);\n      setItems(prev => prev.map(i => i.id === optimisticItem.id ? result : i));\n    } catch (err) {\n      setItems(prev => prev.filter(i => i.id !== optimisticItem.id));\n      throw err;\n    }\n  }, []);\n\n  return { items, isLoading, error, create };\n}\n```\n\n---\n\n## Implementation Phases\n\n### Phase 1 — Core Infrastructure (Week 1-2)\n- [ ] Project setup with TypeScript, ESLint, Prettier\n- [ ] Database schema and migrations\n- [ ] Authentication system (register, login, JWT)\n- [ ] Base API structure with error handling middleware\n- [ ] Design system foundation (colors, typography, spacing)\n- [ ] Layout components (sidebar, header, mobile nav)\n\n### Phase 2 — Core Features (Week 3-4)\n- [ ] Dashboard page with stats\n- [ ] CRUD operations for primary entities\n- [ ] Search and filtering UI\n- [ ] Form components with validation\n- [ ] Error and loading states throughout\n\n### Phase 3 — Advanced Features (Week 5-6)\n- [ ] Analytics dashboard with charts\n- [ ] Notification system\n- [ ] Data export functionality\n- [ ] Admin panel\n- [ ] Performance optimization\n\n### Phase 4 — Polish & Launch (Week 7-8)\n- [ ] Comprehensive test suite\n- [ ] Accessibility audit and fixes\n- [ ] Performance profiling\n- [ ] Documentation\n- [ ] Staging environment validation\n- [ ] Production deployment\n\n---\n\n## Tech Stack Details\n\n**Next.js, TypeScript, PostgreSQL**\n\n| Technology | Version | Purpose |\n|------------|---------|---------|\n| TypeScript | 5.x | Type safety throughout |\n| Zod | 3.x | Runtime validation |\n| Prisma | 5.x | Type-safe ORM |\n| React Query | 5.x | Server state management |\n| Tailwind CSS | 4.x | Utility-first styling |\n| Vitest | 1.x | Unit and integration tests |\n| Playwright | 1.x | End-to-end tests |\n\n---\n\n## Performance Strategy\n\n1. **Server Components** — Render data-heavy pages on server, ship minimal JS\n2. **Streaming** — Progressive rendering with Suspense boundaries\n3. **Caching** — Redis for hot data, Next.js cache for static content\n4. **Images** — Next.js Image with lazy loading and WebP conversion\n5. **Code Splitting** — Dynamic imports for heavy components\n6. **Bundle Analysis** — Regular bundle size audits",
+      "created_at": "2026-08-19T11:13:53.021Z"
+    },
+    "1235657d-4114-4fc0-9925-ec88ac5e62de": {
+      "id": "1235657d-4114-4fc0-9925-ec88ac5e62de",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "type": "test-plan",
+      "title": "Test Plan",
+      "content": "# Requirements Analysis\n\n## Project: Team Collaboration Tool\n\n### Executive Summary\nA project management and collaboration platform with task boards, real-time chat, file sharing, time tracking, and team performance reporting.\n\nThis requirements document captures the functional and non-functional requirements for the Team Collaboration Tool platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:14:01.431Z"
+    },
+    "a3e4549b-4e7f-4df8-bc48-6c62c6e240e9": {
+      "id": "a3e4549b-4e7f-4df8-bc48-6c62c6e240e9",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "type": "edge-cases",
+      "title": "Edge Cases Analysis",
+      "content": "# Test Plan\n\n## Project: Team Collaboration Tool\n\n### Testing Philosophy\n\nWe follow the Testing Trophy pattern — prioritizing integration tests that exercise real user interactions, supported by targeted unit tests for complex business logic, and E2E tests for critical user journeys.\n\n```\n         /\\\n        /E2E\\      ← Critical user flows (10%)\n       /──────\\\n      /Integration\\ ← API and component tests (60%)\n     /────────────\\\n    /  Unit Tests   \\ ← Business logic (30%)\n   /────────────────\\\n```\n\n---\n\n## Test Categories\n\n### Unit Tests\n\n**Authentication Logic**\n```typescript\ndescribe('Auth utilities', () => {\n  test('hashPassword creates bcrypt hash', async () => {\n    const hash = await hashPassword('SecurePass123!');\n    expect(hash).toMatch(/^$2[ab]$/);\n    expect(hash).not.toBe('SecurePass123!');\n  });\n\n  test('verifyPassword validates correct password', async () => {\n    const hash = await hashPassword('test123');\n    expect(await verifyPassword('test123', hash)).toBe(true);\n    expect(await verifyPassword('wrong', hash)).toBe(false);\n  });\n\n  test('generateJWT creates valid token with claims', () => {\n    const token = generateJWT({ userId: 'abc', role: 'admin' });\n    const decoded = verifyJWT(token);\n    expect(decoded.userId).toBe('abc');\n    expect(decoded.role).toBe('admin');\n  });\n});\n```\n\n**Validation Schemas**\n```typescript\ndescribe('Input validation', () => {\n  test('rejects email without @ symbol', () => {\n    const result = UserSchema.safeParse({ email: 'notanemail', password: 'Pass123!' });\n    expect(result.success).toBe(false);\n    expect(result.error?.issues[0].path).toContain('email');\n  });\n\n  test('rejects weak passwords', () => {\n    const result = UserSchema.safeParse({ email: 'a@b.com', password: '123' });\n    expect(result.success).toBe(false);\n  });\n});\n```\n\n**State Transitions**\n```typescript\ndescribe('Item status transitions', () => {\n  test('allows valid transitions', () => {\n    expect(canTransition('draft', 'active')).toBe(true);\n    expect(canTransition('active', 'archived')).toBe(true);\n  });\n\n  test('rejects invalid transitions', () => {\n    expect(canTransition('archived', 'draft')).toBe(false);\n    expect(canTransition('deleted', 'active')).toBe(false);\n  });\n});\n```\n\n---\n\n### Integration Tests\n\n**API Endpoints**\n```typescript\ndescribe('POST /api/v1/items', () => {\n  test('creates item for authenticated user', async () => {\n    const token = await loginAs('user@test.com');\n    const response = await request(app)\n      .post('/api/v1/items')\n      .set('Authorization', `Bearer ${token}`)\n      .send({ title: 'Test Item', content: 'Description' });\n\n    expect(response.status).toBe(201);\n    expect(response.body.data.title).toBe('Test Item');\n    expect(response.body.data.id).toBeDefined();\n  });\n\n  test('returns 401 for unauthenticated requests', async () => {\n    const response = await request(app)\n      .post('/api/v1/items')\n      .send({ title: 'Test' });\n    expect(response.status).toBe(401);\n  });\n\n  test('returns 400 for invalid input', async () => {\n    const token = await loginAs('user@test.com');\n    const response = await request(app)\n      .post('/api/v1/items')\n      .set('Authorization', `Bearer ${token}`)\n      .send({ title: '' }); // empty title\n    expect(response.status).toBe(400);\n    expect(response.body.error).toBeDefined();\n  });\n});\n```\n\n**Database Operations**\n```typescript\ndescribe('Item repository', () => {\n  beforeEach(async () => await seedTestDatabase());\n  afterEach(async () => await cleanTestDatabase());\n\n  test('findById returns correct item', async () => {\n    const item = await db.items.findById('known-id');\n    expect(item?.title).toBe('Expected Title');\n  });\n\n  test('list returns paginated results', async () => {\n    const result = await db.items.list({ page: 1, limit: 10 });\n    expect(result.items).toHaveLength(10);\n    expect(result.total).toBeGreaterThan(10);\n    expect(result.hasMore).toBe(true);\n  });\n});\n```\n\n---\n\n### End-to-End Tests\n\n**Critical User Journey 1: New User Registration**\n```typescript\ntest('complete registration flow', async ({ page }) => {\n  await page.goto('/register');\n  await page.fill('[name=email]', 'newuser@example.com');\n  await page.fill('[name=password]', 'SecurePass123!');\n  await page.fill('[name=confirmPassword]', 'SecurePass123!');\n  await page.click('[type=submit]');\n\n  await expect(page).toHaveURL('/dashboard');\n  await expect(page.locator('h1')).toContainText('Welcome');\n});\n```\n\n**Critical User Journey 2: Core Workflow**\n```typescript\ntest('create, update, and delete an item', async ({ page }) => {\n  await loginUser(page, 'user@test.com');\n\n  // Create\n  await page.click('[data-testid=create-item-btn]');\n  await page.fill('[name=title]', 'My Test Item');\n  await page.click('[type=submit]');\n  await expect(page.locator('[data-testid=item-card]').first()).toContainText('My Test Item');\n\n  // Update\n  await page.click('[data-testid=edit-item]');\n  await page.fill('[name=title]', 'Updated Title');\n  await page.click('[type=submit]');\n  await expect(page.locator('[data-testid=item-card]').first()).toContainText('Updated Title');\n\n  // Delete\n  await page.click('[data-testid=delete-item]');\n  await page.click('[data-testid=confirm-delete]');\n  await expect(page.locator('[data-testid=item-card]')).toHaveCount(0);\n});\n```\n\n---\n\n## Edge Cases\n\n### Authentication Edge Cases\n- Expired JWT token → automatic refresh or redirect to login\n- Concurrent logins from multiple devices → all sessions valid\n- Login with unverified email → clear error message\n- Rate limiting after 5 failed login attempts → 15-minute lockout\n- Password reset link used twice → second use rejected\n\n### Data Edge Cases\n- Empty list states → informative empty state with CTA\n- Single character inputs → accepted if within min length\n- Maximum length inputs → truncation or rejection with message\n- Unicode and emoji in text fields → properly stored and displayed\n- Concurrent updates to same record → last-write-wins with conflict notification\n\n### Network Edge Cases\n- Request timeout (> 30s) → user-friendly timeout message\n- 503 Service Unavailable → retry with exponential backoff\n- Offline mode → cached data shown, write operations queued\n- Large file uploads → chunked upload with progress indicator\n\n### UI Edge Cases\n- Very long text in card titles → CSS truncation with tooltip\n- Tables with 0 rows → styled empty state\n- Rapid button clicks → debounced, loading state prevents duplicates\n- Back navigation during form fill → unsaved changes warning\n\n---\n\n## Test Coverage Targets\n\n| Layer | Target Coverage | Priority |\n|-------|----------------|----------|\n| Business logic (utils) | 95% | Critical |\n| API route handlers | 80% | Critical |\n| React components | 70% | High |\n| Database queries | 85% | High |\n| E2E critical paths | 100% of journeys | Critical |\n\n**Estimated Test Suite Size:** ~150 unit tests, ~60 integration tests, ~20 E2E scenarios",
+      "created_at": "2026-08-19T11:14:01.471Z"
+    },
+    "f49846e5-61d3-4fd7-b16f-b247347ca4ea": {
+      "id": "f49846e5-61d3-4fd7-b16f-b247347ca4ea",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "type": "review-summary",
+      "title": "Code Review",
+      "content": "# Requirements Analysis\n\n## Project: Team Collaboration Tool\n\n### Executive Summary\nA project management and collaboration platform with task boards, real-time chat, file sharing, time tracking, and team performance reporting.\n\nThis requirements document captures the functional and non-functional requirements for the Team Collaboration Tool platform, derived from comprehensive stakeholder analysis and product vision review.\n\n---\n\n## Functional Requirements\n\n### FR-001: User Authentication & Authorization\n**Priority:** Critical\n- Email and password-based authentication with JWT session management\n- Role-based access control with Admin, Manager, and User roles\n- Secure password reset flow via email verification\n- Session expiry and automatic token refresh\n\n### FR-002: Core Platform Features\n**Priority:** Critical\n- Full CRUD operations for primary domain entities\n- Real-time data updates via WebSocket connections\n- Advanced search and filtering with pagination\n- Bulk operations support for power users\n\n### FR-003: Dashboard & Analytics\n**Priority:** High\n- Executive summary dashboard with KPI widgets\n- Time-series charts for trend analysis\n- Exportable reports in PDF and CSV formats\n- Customizable date range filtering\n\n### FR-004: Notifications & Alerts\n**Priority:** Medium\n- In-app notification center with read/unread states\n- Email notifications for critical events\n- Configurable alert thresholds and notification preferences\n- Push notification support (web)\n\n### FR-005: Integration & API\n**Priority:** Medium\n- REST API with OpenAPI 3.0 specification\n- Webhook support for third-party integrations\n- OAuth 2.0 for external service authentication\n- Rate limiting and API key management\n\n---\n\n## Non-Functional Requirements\n\n### Performance\n- API response time < 200ms for 95th percentile under normal load\n- Page load time < 2 seconds for LCP (Largest Contentful Paint)\n- Support 10,000 concurrent active users\n- Database query execution < 50ms for indexed lookups\n\n### Security\n- OWASP Top 10 compliance\n- All data encrypted at rest (AES-256) and in transit (TLS 1.3)\n- Input validation and sanitization on all user inputs\n- SQL injection, XSS, and CSRF protection\n\n### Reliability\n- 99.9% uptime SLA (less than 8.7 hours downtime per year)\n- Automated database backups every 6 hours\n- Graceful degradation when non-critical services fail\n- Circuit breaker pattern for external service calls\n\n### Scalability\n- Horizontal scaling via stateless API design\n- Database read replicas for high-read scenarios\n- CDN integration for static asset delivery\n- Caching layer (Redis) for frequently accessed data\n\n---\n\n## User Stories\n\n### Authentication Epic\n\n**US-001: User Registration**\n> As a new user, I want to create an account so that I can access the platform.\n- Given I am on the registration page\n- When I submit a valid email and password meeting security requirements\n- Then my account is created, I receive a confirmation email, and I am redirected to onboarding\n\n**US-002: User Login**\n> As a registered user, I want to sign in securely so that I can access my workspace.\n- Given I have a verified account\n- When I submit correct credentials\n- Then I am authenticated and redirected to my dashboard\n\n**US-003: Password Reset**\n> As a user who forgot their password, I want to reset it so that I can regain access.\n- Given I provide my registered email\n- When I submit the reset request\n- Then I receive an email with a time-limited reset link\n\n### Core Features Epic\n\n**US-004: Create Primary Entity**\n> As an authenticated user, I want to create new records so that I can manage my data.\n- Given I am on the creation form\n- When I fill in required fields and submit\n- Then the record is saved and I see a confirmation with the new entry\n\n**US-005: Search and Filter**\n> As a user, I want to search and filter data so that I can find specific information quickly.\n- Given I have multiple records\n- When I use the search bar or apply filters\n- Then results are updated in real-time showing only matching records\n\n**US-006: Export Data**\n> As a manager, I want to export data so that I can analyze it in external tools.\n- Given I have a dataset in view\n- When I click Export and select a format\n- Then a file is downloaded with the current filtered data\n\n### Admin Epic\n\n**US-007: User Management**\n> As an admin, I want to manage team members so that I can control platform access.\n- Given I am in the admin panel\n- When I invite, deactivate, or change roles for a user\n- Then the changes take effect immediately and the user is notified\n\n---\n\n## Feature Breakdown\n\n| Feature | Priority | Complexity | Sprint |\n|---------|----------|-----------|--------|\n| Authentication system | Critical | Medium | 1 |\n| User dashboard | Critical | Medium | 1-2 |\n| Core CRUD operations | Critical | Low | 2 |\n| Search & filtering | High | Medium | 2-3 |\n| Analytics & reporting | High | High | 3-4 |\n| Notification system | Medium | Medium | 4 |\n| API & integrations | Medium | High | 4-5 |\n| Admin panel | Medium | Medium | 5 |\n| Mobile optimization | Low | Medium | 6 |\n\n**Estimated Timeline:** 6 two-week sprints (12 weeks)\n**Team Size:** 3-5 engineers + 1 designer",
+      "created_at": "2026-08-19T11:14:09.884Z"
+    },
+    "2befea81-3f92-4ccc-af45-fe3dc40c3c15": {
+      "id": "2befea81-3f92-4ccc-af45-fe3dc40c3c15",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "type": "recommendations",
+      "title": "Recommendations",
+      "content": "# Implementation Plan\n\n## Project: Team Collaboration Tool\n\n### Technology Decisions\n\nThe implementation follows a feature-first directory structure with clear separation of concerns. All code uses TypeScript strict mode with comprehensive type coverage.\n\n---\n\n## Component Architecture\n\n### Design System Primitives\n\n```\nsrc/components/ui/\n├── Button.tsx         # Variants: primary, secondary, ghost, destructive\n├── Input.tsx          # With validation states and helper text\n├── Select.tsx         # Single and multi-select with search\n├── Modal.tsx          # Accessible dialog with focus trap\n├── Table.tsx          # Sortable, filterable, paginated\n├── Badge.tsx          # Status indicators\n├── Card.tsx           # Surface container\n├── Skeleton.tsx       # Loading placeholders\n├── Toast.tsx          # Notification system\n└── Tabs.tsx           # Tab navigation\n```\n\n### Feature Components\n\n```\nsrc/components/\n├── auth/\n│   ├── LoginForm.tsx\n│   ├── RegisterForm.tsx\n│   └── PasswordResetForm.tsx\n├── dashboard/\n│   ├── StatsGrid.tsx\n│   ├── ActivityFeed.tsx\n│   └── QuickActions.tsx\n├── items/\n│   ├── ItemCard.tsx\n│   ├── ItemList.tsx\n│   ├── ItemForm.tsx\n│   └── ItemDetail.tsx\n├── analytics/\n│   ├── KPICard.tsx\n│   ├── TrendChart.tsx\n│   └── ExportButton.tsx\n└── layout/\n    ├── AppLayout.tsx\n    ├── Sidebar.tsx\n    ├── Header.tsx\n    └── MobileNav.tsx\n```\n\n---\n\n## Core Implementation Patterns\n\n### API Client Pattern\n```typescript\n// Type-safe API client with automatic error handling\nclass ApiClient {\n  private baseUrl: string;\n  private token: string | null = null;\n\n  async get<T>(path: string): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      headers: this.headers(),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n\n  async post<T, B>(path: string, body: B): Promise<T> {\n    const response = await fetch(`${this.baseUrl}${path}`, {\n      method: 'POST',\n      headers: { ...this.headers(), 'Content-Type': 'application/json' },\n      body: JSON.stringify(body),\n    });\n    if (!response.ok) throw new ApiError(response);\n    return response.json() as T;\n  }\n}\n```\n\n### Server Action Pattern\n```typescript\n// Type-safe server actions with Zod validation\nconst CreateItemSchema = z.object({\n  title: z.string().min(1).max(500),\n  content: z.string().optional(),\n  status: z.enum(['active', 'archived']).default('active'),\n});\n\nexport async function createItem(\n  data: z.infer<typeof CreateItemSchema>\n): Promise<ActionResult<Item>> {\n  const validated = CreateItemSchema.safeParse(data);\n  if (!validated.success) {\n    return { success: false, error: validated.error.message };\n  }\n\n  const item = await db.items.create({ data: validated.data });\n  revalidatePath('/items');\n  return { success: true, data: item };\n}\n```\n\n### Custom Hook Pattern\n```typescript\n// Data fetching hook with optimistic updates\nfunction useItems(filters?: ItemFilters) {\n  const [items, setItems] = useState<Item[]>([]);\n  const [isLoading, setIsLoading] = useState(true);\n  const [error, setError] = useState<Error | null>(null);\n\n  const create = useCallback(async (data: CreateItemInput) => {\n    const optimisticItem = { ...data, id: 'temp-' + Date.now(), createdAt: new Date() };\n    setItems(prev => [optimisticItem, ...prev]);\n    try {\n      const result = await api.items.create(data);\n      setItems(prev => prev.map(i => i.id === optimisticItem.id ? result : i));\n    } catch (err) {\n      setItems(prev => prev.filter(i => i.id !== optimisticItem.id));\n      throw err;\n    }\n  }, []);\n\n  return { items, isLoading, error, create };\n}\n```\n\n---\n\n## Implementation Phases\n\n### Phase 1 — Core Infrastructure (Week 1-2)\n- [ ] Project setup with TypeScript, ESLint, Prettier\n- [ ] Database schema and migrations\n- [ ] Authentication system (register, login, JWT)\n- [ ] Base API structure with error handling middleware\n- [ ] Design system foundation (colors, typography, spacing)\n- [ ] Layout components (sidebar, header, mobile nav)\n\n### Phase 2 — Core Features (Week 3-4)\n- [ ] Dashboard page with stats\n- [ ] CRUD operations for primary entities\n- [ ] Search and filtering UI\n- [ ] Form components with validation\n- [ ] Error and loading states throughout\n\n### Phase 3 — Advanced Features (Week 5-6)\n- [ ] Analytics dashboard with charts\n- [ ] Notification system\n- [ ] Data export functionality\n- [ ] Admin panel\n- [ ] Performance optimization\n\n### Phase 4 — Polish & Launch (Week 7-8)\n- [ ] Comprehensive test suite\n- [ ] Accessibility audit and fixes\n- [ ] Performance profiling\n- [ ] Documentation\n- [ ] Staging environment validation\n- [ ] Production deployment\n\n---\n\n## Tech Stack Details\n\n**Next.js, TypeScript, PostgreSQL**\n\n| Technology | Version | Purpose |\n|------------|---------|---------|\n| TypeScript | 5.x | Type safety throughout |\n| Zod | 3.x | Runtime validation |\n| Prisma | 5.x | Type-safe ORM |\n| React Query | 5.x | Server state management |\n| Tailwind CSS | 4.x | Utility-first styling |\n| Vitest | 1.x | Unit and integration tests |\n| Playwright | 1.x | End-to-end tests |\n\n---\n\n## Performance Strategy\n\n1. **Server Components** — Render data-heavy pages on server, ship minimal JS\n2. **Streaming** — Progressive rendering with Suspense boundaries\n3. **Caching** — Redis for hot data, Next.js cache for static content\n4. **Images** — Next.js Image with lazy loading and WebP conversion\n5. **Code Splitting** — Dynamic imports for heavy components\n6. **Bundle Analysis** — Regular bundle size audits",
+      "created_at": "2026-08-19T11:14:09.927Z"
+    }
+  },
+  "activity_events": [
+    {
+      "id": "e38a8621-8363-49b4-b607-ade687de2fe9",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": null,
+      "event_type": "run_started",
+      "message": "Factory run started in DEMO mode",
+      "created_at": "2026-08-19T11:10:06.183Z",
+      "_row_id": 1
+    },
+    {
+      "id": "e059159c-69dc-487b-9bac-9a2149e8855d",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "event_type": "agent_started",
+      "message": "Product Manager started",
+      "created_at": "2026-08-19T11:10:06.198Z",
+      "_row_id": 2
+    },
+    {
+      "id": "754d16e1-5dc3-4dc7-a927-6b8d8bd084d4",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "event_type": "agent_progress",
+      "message": "Analyzing requirements and generating user stories...",
+      "created_at": "2026-08-19T11:10:08.712Z",
+      "_row_id": 3
+    },
+    {
+      "id": "3b1d7ce7-1971-4130-bb8a-d98b84d9d3b6",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Requirements Document",
+      "created_at": "2026-08-19T11:10:13.735Z",
+      "_row_id": 4
+    },
+    {
+      "id": "d15607c7-be92-4a6c-815d-041d27de09b4",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "event_type": "artifact_created",
+      "message": "Artifact created: User Stories",
+      "created_at": "2026-08-19T11:10:13.758Z",
+      "_row_id": 5
+    },
+    {
+      "id": "6ca63ea9-e0c9-469c-af2c-66883d155d9e",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "product",
+      "event_type": "agent_completed",
+      "message": "Product Manager completed — Requirements analyzed, user stories and feature breakdown generated",
+      "created_at": "2026-08-19T11:10:13.777Z",
+      "_row_id": 6
+    },
+    {
+      "id": "ad115787-ec68-409b-8558-9cce84e9971b",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "event_type": "agent_started",
+      "message": "Software Architect started",
+      "created_at": "2026-08-19T11:10:14.592Z",
+      "_row_id": 7
+    },
+    {
+      "id": "04c36007-34d2-49ae-a4e3-3f1f80e0e60e",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "event_type": "agent_progress",
+      "message": "Designing system architecture and database schema...",
+      "created_at": "2026-08-19T11:10:17.099Z",
+      "_row_id": 8
+    },
+    {
+      "id": "190f9b60-4f17-45a9-8b2f-238c597eefd9",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "event_type": "artifact_created",
+      "message": "Artifact created: System Architecture",
+      "created_at": "2026-08-19T11:10:23.628Z",
+      "_row_id": 9
+    },
+    {
+      "id": "fbea0e36-aa62-4498-b340-0ef8d6ac2147",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "event_type": "artifact_created",
+      "message": "Artifact created: API Design",
+      "created_at": "2026-08-19T11:10:23.650Z",
+      "_row_id": 10
+    },
+    {
+      "id": "760eac8b-989a-4035-9ce8-50f77d22efa8",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "architect",
+      "event_type": "agent_completed",
+      "message": "Software Architect completed — System architecture, database schema, and API design completed",
+      "created_at": "2026-08-19T11:10:23.677Z",
+      "_row_id": 11
+    },
+    {
+      "id": "53a0fa3b-1e91-40d5-9838-bfbec73c4afc",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "event_type": "agent_started",
+      "message": "Developer started",
+      "created_at": "2026-08-19T11:10:24.513Z",
+      "_row_id": 12
+    },
+    {
+      "id": "558f73d1-c945-4e55-a1fc-6ea02faf5a2a",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "event_type": "agent_progress",
+      "message": "Planning component structure and implementation strategy...",
+      "created_at": "2026-08-19T11:10:27.023Z",
+      "_row_id": 13
+    },
+    {
+      "id": "5fd3b0c3-c773-4423-baf0-5f69f57f57f8",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Component Architecture",
+      "created_at": "2026-08-19T11:10:32.834Z",
+      "_row_id": 14
+    },
+    {
+      "id": "2458e331-36a1-4013-b424-397f6bb613e1",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Implementation Guide",
+      "created_at": "2026-08-19T11:10:32.856Z",
+      "_row_id": 15
+    },
+    {
+      "id": "309ecf7d-54b3-44a9-bc6a-79caf533dbe2",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "developer",
+      "event_type": "agent_completed",
+      "message": "Developer completed — Component plan and implementation strategy generated",
+      "created_at": "2026-08-19T11:10:32.887Z",
+      "_row_id": 16
+    },
+    {
+      "id": "4a270e25-88ef-495e-8090-46ced40c89db",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "event_type": "agent_started",
+      "message": "QA Engineer started",
+      "created_at": "2026-08-19T11:10:33.720Z",
+      "_row_id": 17
+    },
+    {
+      "id": "edd30976-568b-4021-a64e-bda8e52071e5",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "event_type": "agent_progress",
+      "message": "Identifying test scenarios and edge cases...",
+      "created_at": "2026-08-19T11:10:36.251Z",
+      "_row_id": 18
+    },
+    {
+      "id": "230f6407-3d10-4348-90ce-025b144e3a2d",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Test Plan",
+      "created_at": "2026-08-19T11:10:41.275Z",
+      "_row_id": 19
+    },
+    {
+      "id": "c507e6ab-b8ed-43d1-81af-c3288e9074af",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Edge Cases Analysis",
+      "created_at": "2026-08-19T11:10:41.306Z",
+      "_row_id": 20
+    },
+    {
+      "id": "0d1a7806-735c-4f7f-ac81-d92bcdefe1b4",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "qa",
+      "event_type": "agent_completed",
+      "message": "QA Engineer completed — Test plan and edge case analysis completed",
+      "created_at": "2026-08-19T11:10:41.325Z",
+      "_row_id": 21
+    },
+    {
+      "id": "61ee750c-9215-451c-af14-9647f972e688",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "event_type": "agent_started",
+      "message": "Code Reviewer started",
+      "created_at": "2026-08-19T11:10:42.149Z",
+      "_row_id": 22
+    },
+    {
+      "id": "6f334cd0-6643-4137-aa71-e688e44601f7",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "event_type": "agent_progress",
+      "message": "Reviewing code quality and security posture...",
+      "created_at": "2026-08-19T11:10:44.669Z",
+      "_row_id": 23
+    },
+    {
+      "id": "3550ce5a-4f5a-40ff-8cfb-71f052eb1c2d",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Code Review",
+      "created_at": "2026-08-19T11:10:49.696Z",
+      "_row_id": 24
+    },
+    {
+      "id": "5ffc29ae-e189-4846-b171-336c1a3af1c7",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Recommendations",
+      "created_at": "2026-08-19T11:10:49.723Z",
+      "_row_id": 25
+    },
+    {
+      "id": "427beee8-0d82-4349-bc7c-c61cf4e8a0d1",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": "reviewer",
+      "event_type": "agent_completed",
+      "message": "Code Reviewer completed — Code quality review and recommendations completed",
+      "created_at": "2026-08-19T11:10:49.754Z",
+      "_row_id": 26
+    },
+    {
+      "id": "40005e97-d441-44c1-8708-cf45a03df702",
+      "run_id": "0d2b400b-1666-4254-84e4-b2881039335d",
+      "agent_name": null,
+      "event_type": "run_completed",
+      "message": "All agents completed. Factory run finished successfully.",
+      "created_at": "2026-08-19T11:10:49.800Z",
+      "_row_id": 27
+    },
+    {
+      "id": "426d966a-73b6-4622-9c52-7119c074472e",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": null,
+      "event_type": "run_started",
+      "message": "Factory run started in DEMO mode",
+      "created_at": "2026-08-19T11:13:26.270Z",
+      "_row_id": 28
+    },
+    {
+      "id": "da1684c6-c977-434c-9ac8-fb5f4bc9a591",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "event_type": "agent_started",
+      "message": "Product Manager started",
+      "created_at": "2026-08-19T11:13:26.298Z",
+      "_row_id": 29
+    },
+    {
+      "id": "01cad251-7c55-402e-ae05-efa0985cd0d4",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "event_type": "agent_progress",
+      "message": "Analyzing requirements and generating user stories...",
+      "created_at": "2026-08-19T11:13:28.817Z",
+      "_row_id": 30
+    },
+    {
+      "id": "9b12a060-f403-498b-900e-efff32b70dd8",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Requirements Document",
+      "created_at": "2026-08-19T11:13:33.855Z",
+      "_row_id": 31
+    },
+    {
+      "id": "4b8d0003-bd97-4b7e-9459-727a61ad2b25",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "event_type": "artifact_created",
+      "message": "Artifact created: User Stories",
+      "created_at": "2026-08-19T11:13:33.880Z",
+      "_row_id": 32
+    },
+    {
+      "id": "2fd11c7f-6a7a-4eae-80ae-38341534722a",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "product",
+      "event_type": "agent_completed",
+      "message": "Product Manager completed — Requirements analyzed, user stories and feature breakdown generated",
+      "created_at": "2026-08-19T11:13:33.906Z",
+      "_row_id": 33
+    },
+    {
+      "id": "e7bd39ff-2b59-4ef6-b390-4709c3ccf28c",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "event_type": "agent_started",
+      "message": "Software Architect started",
+      "created_at": "2026-08-19T11:13:34.741Z",
+      "_row_id": 34
+    },
+    {
+      "id": "7a7ac58e-6122-4cf6-b9c5-f93732300f6e",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "event_type": "agent_progress",
+      "message": "Designing system architecture and database schema...",
+      "created_at": "2026-08-19T11:13:37.266Z",
+      "_row_id": 35
+    },
+    {
+      "id": "18706db9-e5da-4ad3-9536-d864d3006697",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "event_type": "artifact_created",
+      "message": "Artifact created: System Architecture",
+      "created_at": "2026-08-19T11:13:43.795Z",
+      "_row_id": 36
+    },
+    {
+      "id": "67f8a345-86cb-4891-a36d-fbe74e2f325f",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "event_type": "artifact_created",
+      "message": "Artifact created: API Design",
+      "created_at": "2026-08-19T11:13:43.830Z",
+      "_row_id": 37
+    },
+    {
+      "id": "efde4ab5-3866-4926-af3b-4a76a7c04c99",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "architect",
+      "event_type": "agent_completed",
+      "message": "Software Architect completed — System architecture, database schema, and API design completed",
+      "created_at": "2026-08-19T11:13:43.866Z",
+      "_row_id": 38
+    },
+    {
+      "id": "3ece35fb-fadd-4ab2-8b3f-fbfcfe3adae2",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "event_type": "agent_started",
+      "message": "Developer started",
+      "created_at": "2026-08-19T11:13:44.695Z",
+      "_row_id": 39
+    },
+    {
+      "id": "59284d07-1db2-49b0-b6d1-9af71602db74",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "event_type": "agent_progress",
+      "message": "Planning component structure and implementation strategy...",
+      "created_at": "2026-08-19T11:13:47.210Z",
+      "_row_id": 40
+    },
+    {
+      "id": "c374d368-3e8c-4765-b1bb-2272434e2280",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Component Architecture",
+      "created_at": "2026-08-19T11:13:53.007Z",
+      "_row_id": 41
+    },
+    {
+      "id": "ea276737-f52d-4d46-91fc-632c1f9961e1",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Implementation Guide",
+      "created_at": "2026-08-19T11:13:53.035Z",
+      "_row_id": 42
+    },
+    {
+      "id": "5ab50162-3292-4883-a7cd-90ea086bf8f3",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "developer",
+      "event_type": "agent_completed",
+      "message": "Developer completed — Component plan and implementation strategy generated",
+      "created_at": "2026-08-19T11:13:53.058Z",
+      "_row_id": 43
+    },
+    {
+      "id": "5afd2cd6-0d39-4675-a9e1-e900d9b4e78e",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "event_type": "agent_started",
+      "message": "QA Engineer started",
+      "created_at": "2026-08-19T11:13:53.892Z",
+      "_row_id": 44
+    },
+    {
+      "id": "36cc4de6-7d96-4ac0-a68f-8218c4c24233",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "event_type": "agent_progress",
+      "message": "Identifying test scenarios and edge cases...",
+      "created_at": "2026-08-19T11:13:56.418Z",
+      "_row_id": 45
+    },
+    {
+      "id": "a7bf5dd6-b4cc-4cbc-8ac4-0240d6a08e64",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Test Plan",
+      "created_at": "2026-08-19T11:14:01.448Z",
+      "_row_id": 46
+    },
+    {
+      "id": "749ead50-9cbc-4b05-bca5-8c95ebf145b6",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Edge Cases Analysis",
+      "created_at": "2026-08-19T11:14:01.492Z",
+      "_row_id": 47
+    },
+    {
+      "id": "619aaf48-f96f-41d6-8343-7ddd1ad64c00",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "qa",
+      "event_type": "agent_completed",
+      "message": "QA Engineer completed — Test plan and edge case analysis completed",
+      "created_at": "2026-08-19T11:14:01.535Z",
+      "_row_id": 48
+    },
+    {
+      "id": "329ab92d-767e-41a7-91de-e55547b03db2",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "event_type": "agent_started",
+      "message": "Code Reviewer started",
+      "created_at": "2026-08-19T11:14:02.352Z",
+      "_row_id": 49
+    },
+    {
+      "id": "d9145bde-9d5c-4fce-a9f9-248539c5ec8d",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "event_type": "agent_progress",
+      "message": "Reviewing code quality and security posture...",
+      "created_at": "2026-08-19T11:14:04.873Z",
+      "_row_id": 50
+    },
+    {
+      "id": "b63b7a12-4145-44b5-b024-2a632a0d543a",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Code Review",
+      "created_at": "2026-08-19T11:14:09.903Z",
+      "_row_id": 51
+    },
+    {
+      "id": "68101059-445e-4c84-9e98-63afd2ac9046",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "event_type": "artifact_created",
+      "message": "Artifact created: Recommendations",
+      "created_at": "2026-08-19T11:14:09.940Z",
+      "_row_id": 52
+    },
+    {
+      "id": "a4ad94bf-5021-4a80-afcd-90aefc441a6f",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": "reviewer",
+      "event_type": "agent_completed",
+      "message": "Code Reviewer completed — Code quality review and recommendations completed",
+      "created_at": "2026-08-19T11:14:09.965Z",
+      "_row_id": 53
+    },
+    {
+      "id": "5a89b65f-55f9-464e-88b4-d46757d111a4",
+      "run_id": "3a8cc433-765b-4c55-a045-cb826364ec63",
+      "agent_name": null,
+      "event_type": "run_completed",
+      "message": "All agents completed. Factory run finished successfully.",
+      "created_at": "2026-08-19T11:14:10.001Z",
+      "_row_id": 54
+    }
+  ],
+  "settings": {},
+  "_next_row_id": 55
+}
